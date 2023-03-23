@@ -1,45 +1,89 @@
-
 <div th:fragment="navbar">
-  <div class="navbar narbar-inverse navbar-fixed-top" style="">
+<!--  <div class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top justify-content-center" style="">-->
 
-    <div class ="container-fluid" style="border: black; border-width: 2px; border-style: solid dotted double dashed; align-content: center;align-items: center">
-      <a class ="navbar-brand" style="font-size: 44px" href="#">Photon L a b s</a>
+<!--    <div class ="container-fluid justify-content-center" style="border: black; border-width: 2px; border-style: solid dotted double dashed; align-content: center;align-items: center">-->
+<!--      <a class="navbar-brand" href="/home">-->
+<!--        <img src="https://live.staticflickr.com/65535/51369056853_85ef692ae7_o.gif" width="50" height="50" class="d-inline-block align-top" alt="">-->
+<!--      </a>-->
 
-      <a class="navbar-brand" href="#">Navbar</a>
+<!--      <a class ="navbar-brand" href="/">PhotonLabs</a>-->
+
+<!--&lt;!&ndash;      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">&ndash;&gt;-->
+<!--&lt;!&ndash;        <span class="navbar-toggler-icon"></span>&ndash;&gt;-->
+<!--&lt;!&ndash;      </button>&ndash;&gt;-->
+
+<!--      <div class="collapse navbar-collapse nav justify-content-center" id="navbarSupportedContent">-->
+<!--        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">-->
+
+
+
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link" href="#">Art</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link" href="#">CV / Resume</a>-->
+<!--          </li>-->
+<!--&lt;!&ndash;          <li class="nav-item">&ndash;&gt;-->
+<!--&lt;!&ndash;            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>&ndash;&gt;-->
+<!--&lt;!&ndash;          </li>&ndash;&gt;-->
+<!--        </ul>-->
+
+<!--&lt;!&ndash;        <form class="d-flex">&ndash;&gt;-->
+<!--&lt;!&ndash;          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">&ndash;&gt;-->
+<!--&lt;!&ndash;          <button class="btn btn-outline-success" type="submit">Search</button>&ndash;&gt;-->
+<!--&lt;!&ndash;        </form>&ndash;&gt;-->
+
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/home">
+        <img src="https://live.staticflickr.com/65535/51369056853_85ef692ae7_o.gif" width="50" height="50" class="d-inline-block align-top" alt="">
+      </a>
+      <a class="navbar-brand text-success" href="/">
+        Photon.Labs
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+
+      <div class="collapse navbar-collapse"></div>
+
+      <div class="collapse navbar-collapse"
+           id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Computer Science
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Calculator</a></li>
+              <li><a class="dropdown-item" href="#">Konami</a></li>
+              <li><a class="dropdown-item" href="#">Favorite Foods</a></li>
+              <li><a class="dropdown-item" href="#">Weather Map</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
+
+
+
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#">Art</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">CV / Resume</a>
+          </li>
+
+
         </ul>
-
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-
       </div>
     </div>
-  </div>
+  </nav>
 <!--  </form>-->
 </div>
