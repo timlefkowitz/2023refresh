@@ -11,11 +11,17 @@ body {
     font-weight: 700;
 }
 
+
+
 #card{
     padding: 10px;
     border: 10px;
+    border-color: #1b6d85;
+    /*color: linear-gradient(to right, #00AAFF, #00ww6c);*/
     border-radius: 50px;
 }
+
+
 
 /* Welcome Section Styles */
 

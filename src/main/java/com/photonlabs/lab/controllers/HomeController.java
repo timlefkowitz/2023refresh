@@ -38,5 +38,11 @@ public class HomeController {
         return"subPages/coffee";
     }
 
+    @GetMapping("/tut")
+    public String tut(Model view){
+//            return should be the file
+        return"tut";
+    }
+
 
 }

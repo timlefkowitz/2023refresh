@@ -18,6 +18,7 @@
     <link th:href="@{/styles/mainStyles.css}" rel="stylesheet" />
     <link th:href="@{/styles/LandingPageStyle.css}" rel="stylesheet" />
 
+    <script defer th:src="@{/javascript/app.js}"></script>
 
 </head>
 
@@ -47,20 +48,18 @@
 <!-- Welcome, Section -->
 <section id="welcome" class="welcome">
     <div class="container">
+        <h2 class="card-title hidden" style="font-size: 4rem;">Welcome
+            <p></p><img class="avatar avatar-frame" src="/images/img261avatar1.jpg" alt="Avatar" style="max-width: 150px;"></h2>
         <div class="row">
 <!--            <div class="col-md-6" style="margin-top: 20%">-->
-                <div class="card-body" style="margin-top: 20%";>
-                    <div class="card" style="padding: 20px">
-                        <h2 class="card-title" style="font-size: 3rem;">Welcome <p></p><img class="avatar" src="/images/img261avatar.jpg" alt="Avatar" style="max-width: 50px;"></h2>
+                <div class="card-body card-has-bg d-flex flex-column" style="margin-top: 20%; background-color: transparent; border: none; border-image: linear-gradient(to right, #ff6f00, #fcb900); border-image-slice: 1;">
+                    <div class="card d-flex" style="padding: 10px">
+<!--                        <h2 class="card-title" style="font-size: 3rem;">Welcome <p></p><img class="avatar" src="/images/img261avatar.jpg" alt="Avatar" style="max-width: 50px;"></h2>-->
                         <p class="card-text" style="font-size: 1.2rem; margin-top: 1rem; text-align: center">Hello World, I'm Tim! 👋<br>
                             I love all things tech, creating cool stuff, photography, karting, And of course iced coffee.</p>
-                        <p class="card-text" style="font-size: 1.2rem;"></p>
                     </div>
-                    <a href="#" class="btn btn-primary" style="margin-top: 2rem;">Explore</a>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <!--                <img src="static/images/SNES.gif" alt="Super Nintendo GIF" class="img-fluid">-->
+<!--            <a href="#" class="btn btn-primary mt-auto" style="margin-top: 2rem;">Explore</a>-->
             </div>
         </div>
     </div>
@@ -75,7 +74,7 @@
         <div class="row">
             <div class="col-md-6" style="margin-top: 20%">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body hidden">
                         <h2 class="card-title">PhotonLabs</h2>
                         <p class="card-text">This website is my experimental lab &#128300; where I showcase some of my work and explore new tech</p>
                     </div>
@@ -89,12 +88,12 @@
 </section>
 
 <!-- Services Section -->
-<section id="services">
+<section id="services" class="">
     <div class="container">
         <div class="row" style="">
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body hidden">
                         <h5 class="card-title">Computer Science</h5>
                         <p class="card-text">Without computers we wouldn't be here today</p>
                         <p class="card-text">Computers have always fascinated me. Tinkering with machines since the early 90s <a href="/compSci">Read More</a></p>
@@ -111,7 +110,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" style="align-content: end; justify-content: end">
                         <h5 class="card-title">Photo Archive</h5>
                         <p class="card-text">Most of my friends know me with a camera &#128247; in my hands <a href="/compSci">Read More</a></p>
                         <p class="card-text">Although point and shoots were with us as kids. It wasn't until I lost my left eye</p>
@@ -124,10 +123,10 @@
 </section>
 
 <!-- Footer Section -->
-<footer id="footer">
+<footer id="footer" class="">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 hidden">
                 <p style="margin-top: 15%">Thank You for visiting</p>
             </div>
         </div>
