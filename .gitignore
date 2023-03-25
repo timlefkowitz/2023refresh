@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+#keys
+/src/main/resources/templates/subPages/js/keys.js
+/src/main/resources/templates/js/keys.js
