@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: D-DIN-Bold, Arial,Verdana, 'Helvetica Neue';
+}
+
+/* unvisited link */
+a:link {
+    color: #00b1ae;
+}
+
+/* visited link */
+a:visited {
+    color: #00b1ae;
+}
+
+/* mouse over link */
+a:hover {
+    color: #00b1ae;
+}
+
+/* selected link */
+a:active {
+    color: #00b1ae;
+}
+
+body{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.navbar {*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.navbar-default {*/
+/*    text-align: center;*/
+/*}*/
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
